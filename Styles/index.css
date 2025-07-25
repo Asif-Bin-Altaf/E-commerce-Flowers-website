@@ -145,32 +145,57 @@ nav{
     display: flex;
     justify-content: center;
 }
-/* .left-upper{
+.deal-title{
+    font-size: 3rem;
+    color: #E95A08;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+}
+.deal-description{
+    font-size: 1.25rem;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.left-upper{
     background-image: url(../assets/deal-bloom.png);
+    width: 40vh;
+    height: 21vh;
+    background-repeat: no-repeat;
+    padding: 20% 10% 0% 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .left-bottom{
     background-image: url(../assets/deal-ana.png);
-}
-.left-upper,.left-bottom,.right-offer{
-    position: relative;
-    width: 350px;
-    height: 170px;
+    width: 40vh;
+    height: 21vh;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
-
+    padding: 20% 10% 0% 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .right-offer{
     background-image: url(../assets/deal-zabo.png);
-    width: 700px;
-    height:360px;
+    width: 80vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+    padding: 15% 10% 0% 10%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.offer-container{
+    width: 100%;
+    height: 50%;
+    color: white;
+    opacity: 
 }
 .deal{
     display: flex;
     flex-direction: column;
-    margin:3% 10% ;
+    margin:3% 10% 0% 10%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -178,18 +203,20 @@ nav{
 .left-offer{
     display: flex;
     flex-direction: column;
-    gap: 5%;
-    width: 40%;
+    width: 30%;
 }
 .offer-container{
     display: flex;
     gap: 3%;
     justify-content: center;
-    flex-wrap: wrap;
-} */
+}
+.btn2{
+    color: white;
+    text-decoration: underline;
+}
 
 .join{
-    margin-top: 10%;
+    margin-top: 0%;
     background-image: url(../assets/news-letter-bg.png);
     width: 100%;
     height: 70vh;
@@ -268,6 +295,7 @@ footer a{
         margin: 0px 5px 0px 10px;
     }
     .join{
+        margin-top: 40px;
         width: 43vh;
         height: 30vh;
     }
@@ -276,5 +304,22 @@ footer a{
     }
     footer{
         flex-direction: column;
+    }
+    .deal{
+        margin: 0px 5px 0px 10px;
+    }
+    .offer-container{
+        flex-direction: column;
+    }
+    .right-offer{
+    width: 32.5vh;
+    height: 10vh;
+    background-repeat: no-repeat;
+    padding: 20% 10% 20% 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    .left-upper,.left-bottom{
+        padding-top: 75px;
     }
 }
