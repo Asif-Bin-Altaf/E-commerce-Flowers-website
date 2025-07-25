@@ -268,8 +268,11 @@ footer a{
         margin: 0px 5px 0px 10px;
     }
     .join{
-        width: 45vh;
+        width: 43vh;
         height: 30vh;
+    }
+    .input{
+        width: 80%;
     }
     footer{
         flex-direction: column;
